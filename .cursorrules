@@ -1,0 +1,6 @@
+# FloodRoute AI Architecture Rules
+- Use Next.js App Router with TypeScript and strict mode.
+- Map rendering MUST use `react-leaflet` dynamically imported with `{ ssr: false }`.
+- Database operations MUST use the Supabase client SDK with PostGIS queries.
+- Do not add Prisma, Docker, or complex custom authentication.
+- Never expose SUPABASE_SERVICE_ROLE_KEY to client components.
